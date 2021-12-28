@@ -1,0 +1,112 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block main %}
+<div class = "cards">
+<div class="card">
+  <img src="static/DSC_4041-copy-600x600.jpg" alt="Handbag" style="width:100%">
+  <h1>Handbag</h1>
+  <p class="price">&#8377 3,999</p>
+  <p>Genuine Leather Women Camel Beige Hobo</p>
+  <form action = "/shop" method = "post">
+    <input type="hidden" name="id" value="1"></input>
+     <p><button type="submit">Add to Cart</button></p>
+  </form>
+
+</div>
+<div class="card">
+  <img src="static/DSC_4873-copy.jpg" alt="Wallet" style="width:100%">
+  <h1>Wallet</h1>
+  <p class="price">&#8377 1,099</p>
+  <p>Genuine Leather Designed Unisex Black Wallet</p>
+    <form action = "/shop" method = "post">
+    <input type="hidden" name="id" value="2"></input>
+     <p><button type="submit">Add to Cart</button></p>
+  </form>
+</div>
+<div class="card">
+  <img src="static/LMN_BACKPACK_2076_BLK_BC5645_CT-300x300.jpg" alt="Purse" style="width:100%">
+  <h1>Backpack</h1>
+  <p class="price">&#8377 4,999</p>
+  <p>Genuine Leather Men Black Laptop Backpack</p>
+    <form action = "/shop" method = "post">
+    <input type="hidden" name="id" value="3"></input>
+     <p><button type="submit">Add to Cart</button></p>
+  </form>
+</div>
+</div>
+
+
+<div class = "cards">
+<div class="card">
+  <img src="static/DSC_0247-150x150.jpg" alt="Slingbag" style="width:100%">
+  <h1>Sling Bag</h1>
+  <p class="price">&#8377 3,199</p>
+  <p>Genuine Leather Women Tan Sling Bag</p>
+    <form action = "/shop" method = "post">
+    <input type="hidden" name="id" value="4"></input>
+     <p><button type="submit">Add to Cart</button></p>
+  </form>
+</div>
+
+<div class="card">
+  <img src="static/DSC_2493-150x150.jpg" alt="Card Holder" style="width:100%">
+  <h1>Card Holder</h1>
+  <p class="price">&#8377 499</p>
+  <p>Genuine Leather Women’s White Card Holder</p>
+    <form action = "/shop" method = "post">
+    <input type="hidden" name="id" value="5"></input>
+     <p><button type="submit">Add to Cart</button></p>
+  </form>
+</div>
+<div class="card">
+  <img src="static/DSC_3748-150x150.jpg" alt="Spectacle Case" style="width:100%">
+  <h1>Spectacle Case</h1>
+  <p class="price">&#8377 1,599</p>
+  <p>Genuine Leather Unisex Red Spectacle Case</p>
+    <form action = "/shop" method = "post">
+    <input type="hidden" name="id" value="6"></input>
+     <p><button type="submit">Add to Cart</button></p>
+  </form>
+</div>
+</div>
+
+<div class = "cards">
+<div class="card">
+  <img src="static/DSC01169-copy-150x150.jpg" alt="Backpack" style="width:100%">
+  <h1>Backpack</h1>
+  <p class="price">&#8377 4,199</p>
+  <p>Genuine Leather Men’s Dark Brown Backpack</p>
+  <  <form action = "/shop" method = "post">
+    <input type="hidden" name="id" value="7"></input>
+     <p><button type="submit">Add to Cart</button></p>
+  </form>
+</div>
+
+<div class="card">
+  <img src="static/TSP_6865-150x150.jpg" alt="Pouch" style="width:100%">
+  <h1>Women's Pouch</h1>
+  <p class="price">&#8377 799</p>
+  <p>Genuine Leather Blue Women’s Coin Pouch</p>
+    <form action = "/shop" method = "post">
+    <input type="hidden" name="id" value="8"></input>
+     <p><button type="submit">Add to Cart</button></p>
+  </form>
+</div>
+<div class="card">
+  <img src="static/DSC03785-150x150.jpg" alt="Sling Bag" style="width:100%">
+  <h1>Sling Bag</h1>
+  <p class="price">&#8377 4,399</p>
+  <p>Genuine Leather Girls Mauve Taupe Sling Bag</p>
+    <form action = "/shop" method = "post">
+    <input type="hidden" name="id" value="9"></input>
+     <p><button type="submit">Add to Cart</button></p>
+  </form>
+</div>
+</div>
+
+
+{% endblock %}
